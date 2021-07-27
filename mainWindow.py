@@ -1,16 +1,3 @@
-################################################################################
-##
-## BY: WANDERSON M.PIMENTA
-## PROJECT MADE WITH: Qt Designer and PySide2
-## V: 1.0.0
-##
-################################################################################
-
-import sys
-
-
-from PyQt5.QtWidgets import *
-from PyQt5 import uic
 
 from LoadingWindow import *
 
