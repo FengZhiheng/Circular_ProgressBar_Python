@@ -1,2 +1,2 @@
-# Python_Circular_ProgressBar
+# Circular_ProgressBar_Python
 通用软件启动界面
