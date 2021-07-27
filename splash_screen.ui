@@ -19,8 +19,8 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>320</width>
-      <height>320</height>
+      <width>340</width>
+      <height>340</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -94,56 +94,16 @@
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>50</y>
-        <width>193</width>
+        <x>-10</x>
+        <y>40</y>
+        <width>291</width>
         <height>191</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0">
-        <widget class="QLabel" name="labelTitle">
-         <property name="font">
-          <font>
-           <family>Segoe UI</family>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: none;
-color: #FFFFFF</string>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#9b9bff;&quot;&gt;YOUR&lt;/span&gt; APPLICATION NAME&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="labelPercentage">
-         <property name="font">
-          <font>
-           <family>Roboto Thin</family>
-           <pointsize>68</pointsize>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: none;
-color: #FFFFFF</string>
-         </property>
-         <property name="text">
-          <string>&lt;p&gt;&lt;span style=&quot; font-size:68pt;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot; font-size:58pt; vertical-align:super;&quot;&gt;%&lt;/span&gt;&lt;/p&gt;</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
        <item row="2" column="0">
         <widget class="QLabel" name="labelLoadingInfo">
          <property name="minimumSize">
@@ -184,12 +144,32 @@ color: #FFFFFF</string>
          </property>
         </widget>
        </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="labelPercentage">
+         <property name="font">
+          <font>
+           <family>Roboto Thin</family>
+           <pointsize>68</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: none;
+color: #FFFFFF</string>
+         </property>
+         <property name="text">
+          <string>&lt;p&gt;&lt;span style=&quot; font-size:58pt;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot; font-size:48pt; vertical-align:super;&quot;&gt;%&lt;/span&gt;&lt;/p&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
        <item row="3" column="0">
         <widget class="QLabel" name="labelCredits">
          <property name="font">
           <font>
            <family>Segoe UI</family>
-           <pointsize>9</pointsize>
+           <pointsize>7</pointsize>
           </font>
          </property>
          <property name="styleSheet">
@@ -204,8 +184,36 @@ color: rgb(155, 155, 255);</string>
          </property>
         </widget>
        </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelTitle">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: none;
+color: #FFFFFF</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;
+&lt;head/&gt;
+&lt;body&gt;
+&lt;p&gt;
+&lt;span style=&quot; font-weight:400; color:#9b9bff;&quot;&gt;YOUR&lt;/span&gt; APPLICATION NAME&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
+     <zorder>layoutWidget</zorder>
+     <zorder>labelTitle</zorder>
     </widget>
     <zorder>circularBg</zorder>
     <zorder>circularProgress</zorder>

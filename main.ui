@@ -124,7 +124,7 @@
         <x>10</x>
         <y>40</y>
         <width>171</width>
-        <height>125</height>
+        <height>183</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="infoLayout">
@@ -290,7 +290,7 @@
         <x>10</x>
         <y>40</y>
         <width>171</width>
-        <height>127</height>
+        <height>183</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="infoLayout_2">
@@ -456,7 +456,7 @@
         <x>10</x>
         <y>40</y>
         <width>171</width>
-        <height>125</height>
+        <height>183</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="infoLayout_3">
